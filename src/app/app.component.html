@@ -1,0 +1,10 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  
+  <h3>total: <app-counter [totalChild]="total"></app-counter></h3>
+  <app-action (actionTotal) = "total=$event"></app-action>
+</div>  
+
+
+
+<router-outlet></router-outlet>
